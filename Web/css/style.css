@@ -1,0 +1,135 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+
+}
+/*
+.portfolio-item {
+    margin-bottom: 25px;
+}*/
+ul{
+	list-style-type: none;
+}
+#acteur{
+
+	padding-left: 300px;
+
+}
+
+p{
+	text-align: justify;
+}
+
+footer{
+	bottom:0;
+	width:100%;
+	position: fixed;
+	height:32px;
+	background-color:#101010;
+}
+
+footer p{
+	text-align: center;
+	margin:5px 0 0 0;
+	color:#9D9D9D;
+}
+
+textarea{
+	resize: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+/*
+@media (min-width: 1200px) {
+	.img-responsive{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 260.500px;
+		max-height: 204.156px;
+	}
+	h3{
+	text-align: center;
+	}
+}
+
+@media(max-width: 900px){
+	.img-responsive{
+		max-height:260px; 
+		max-width: 204px;
+	}
+}
+
+*/
+
+#body-background{
+	overflow: hidden;
+	padding-top: 17px;
+}
+.img{
+	height: 300px;
+	border: 1px solid black;
+	margin: 0px;
+	padding: 0px;
+	background: no-repeat;
+}
+
+.detail{
+	margin-right: 30px;	
+
+}
+
+
+.titreVip{
+	z-index: 2;
+	background: rgba(0,0,0,0.5);
+	margin: 0;
+	float: bottom;
+	height: 35px;
+}
+.titreVip a{
+	color: white;
+	padding-left: 5px;
+}
+
+@media(max-width: 765px){
+	.img{
+		margin-left: 7%;
+	}
+	ul{
+		margin-left: 20px;
+	}
+	#acteur{
+
+	padding-left: 30px;
+
+	}
+	.last{
+		display: inline-block;
+	}
+}
+@media(min-width: 765px) and (max-width: 1000px){
+	.img{
+		margin-left: 5%;
+	}
+	ul{
+		margin-left: 20px;
+	}
+	.last{
+		display: inline-block;
+	}
+}
+
+#hrEnd{
+	margin-top: 70px;
+}
+
+
+
+
